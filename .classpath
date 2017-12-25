@@ -1,0 +1,17 @@
+<classpath>
+  <classpathentry kind="src" path="src\main\scala"/>
+  <classpathentry kind="src" path="src\test\scala"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scalaz\scalaz-core_2.12\srcs\scalaz-core_2.12-7.2.18-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scalaz\scalaz-core_2.12\jars\scalaz-core_2.12-7.2.18.jar"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scalaz\scalaz-effect_2.12\srcs\scalaz-effect_2.12-7.2.18-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scalaz\scalaz-effect_2.12\jars\scalaz-effect_2.12-7.2.18.jar"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scalaz\scalaz-iteratee_2.12\srcs\scalaz-iteratee_2.12-7.2.18-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scalaz\scalaz-iteratee_2.12\jars\scalaz-iteratee_2.12-7.2.18.jar"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scalaz\scalaz-concurrent_2.12\srcs\scalaz-concurrent_2.12-7.2.18-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scalaz\scalaz-concurrent_2.12\jars\scalaz-concurrent_2.12-7.2.18.jar"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scalacheck\scalacheck_2.12\srcs\scalacheck_2.12-1.13.5-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scalacheck\scalacheck_2.12\jars\scalacheck_2.12-1.13.5.jar"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scala-sbt\test-interface\srcs\test-interface-1.0-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scala-sbt\test-interface\jars\test-interface-1.0.jar"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scalatest\scalatest_2.12\srcs\scalatest_2.12-3.0.3-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scalatest\scalatest_2.12\bundles\scalatest_2.12-3.0.3.jar"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scalactic\scalactic_2.12\srcs\scalactic_2.12-3.0.3-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.3.jar"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\srcs\scala-xml_2.12-1.0.5-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.5.jar"/>
+  <classpathentry sourcepath="C:\Users\mohan\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\srcs\scala-parser-combinators_2.12-1.0.4-sources.jar" kind="lib" path="C:\Users\mohan\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.0.4.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>
