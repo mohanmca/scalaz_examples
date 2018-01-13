@@ -9,7 +9,6 @@ scalacOptions += "-Ypartial-unification"
 EclipseKeys.withSource := true
 EclipseKeys.withJavadoc := false
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.3" % "test"
 libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.2.18" withSources() withJavadoc()
 libraryDependencies += "org.scalaz" %% "scalaz-effect" % "7.2.18" withSources() withJavadoc()
 libraryDependencies += "org.scalaz" %% "scalaz-iteratee" % "7.2.18" withSources() withJavadoc()
@@ -33,6 +32,9 @@ libraryDependencies += "org.typelevel" %% "discipline" % "0.8" % "test"
 libraryDependencies += "org.typelevel" %% "cats-kernel-laws" % "1.0.0" % Test
 libraryDependencies += "org.typelevel" %% "cats-testkit" % "1.0.0" % Test
 
+
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.4"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
 
   
 resolvers += Resolver.sonatypeRepo("releases")
