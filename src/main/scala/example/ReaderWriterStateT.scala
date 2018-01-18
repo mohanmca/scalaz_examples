@@ -50,14 +50,12 @@ object WriterT {
   type Writer[W, A] = WriterT[W, Id, A]
 }
 
-case class StateT[S, F[_], A](
-  st: S => F[(A, S)]) {
-  def rws[W, R](implicit F: Functor[F], W: Monoid[W]): ReaderWriterStateT[R, W, S, F, A] =
-    ReaderWriterStateT {
-      case (r, s) => F.map(st(s)) {
-        case (a, s) => (W.id, a, s)
-      }
+case class StateT[S, F[_], A](st: S => F[(A, S)]) {
+  def rws[W, R](implicit F: Functor[F], W: Monoid[W]): ReaderWriterStateT[R, W, S, F, A] = ReaderWriterStateT {
+    case (r, s) => F.map(st(s)) {
+      case (a, s) => (W.id, a, s)
     }
+  }
 }
 
 object StateT {
