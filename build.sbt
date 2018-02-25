@@ -9,10 +9,12 @@ scalacOptions += "-Ypartial-unification"
 EclipseKeys.withSource := true
 EclipseKeys.withJavadoc := false
 
-libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.2.18" withSources() withJavadoc()
-libraryDependencies += "org.scalaz" %% "scalaz-effect" % "7.2.18" withSources() withJavadoc()
-libraryDependencies += "org.scalaz" %% "scalaz-iteratee" % "7.2.18" withSources() withJavadoc()
-libraryDependencies += "org.scalaz" %% "scalaz-concurrent" % "7.2.18" withSources() withJavadoc()
+val scalazVersion = "7.2.18"
+
+libraryDependencies += "org.scalaz" %% "scalaz-core" % scalazVersion withSources() withJavadoc()
+libraryDependencies += "org.scalaz" %% "scalaz-effect" % scalazVersion withSources() withJavadoc()
+libraryDependencies += "org.scalaz" %% "scalaz-iteratee" % scalazVersion withSources() withJavadoc()
+libraryDependencies += "org.scalaz" %% "scalaz-concurrent" % scalazVersion withSources() withJavadoc()
 libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.13.5" withSources() withJavadoc()
 
 libraryDependencies += "org.typelevel" %% "cats-core" % "1.0.0"

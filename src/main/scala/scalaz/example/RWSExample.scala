@@ -1,8 +1,11 @@
-package example
+package scalaz.example
 
 import scalaz._
 import Scalaz._
 
+/**
+ * https://stackoverflow.com/questions/11619433/reader-writer-state-monad-how-to-run-this-scala-code
+ */
 object RWSExample extends App {
   case class Config(port: Int)
 
